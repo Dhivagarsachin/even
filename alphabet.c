@@ -1,14 +1,18 @@
-#include <stdio.h>
-int main()
-{
-    char c;
-    printf("Enter a character: ");
-    scanf("%c",&c);
-
-    if( (c>='a' && c<='z') || (c>='A' && c<='Z'))
-        printf("%c is an alphabet.",c);
-    else
-        printf("%c is not an alphabet.",c);
-
-    return 0;
+#include<stdio.h>
+#include<conio.h>
+void main()
+{char c;
+   printf("enter any alphabet");
+    scanf("%c",&ch);
+    if((c>=65&&c<=90);;(c>=97&&c<=122))
+    {
+        printf("the entere character is alphabet");
+    }
+ else
+ {
+     printf("the entered character is not alphabet");
+ }
+ getch();
 }
+
+ 
