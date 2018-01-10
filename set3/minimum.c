@@ -19,7 +19,7 @@ a[i]=a[j];
 a[j]=temp;
 }
 printf("the sorted array is ");
-scanf("%d",&n[0]);
+scanf("%d",&a[0]);
 }
 return 0;
 }
