@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int i,j,a[50].n,temp;
+int i,j,a[50],size,n,temp;
 printf("enter the array size");
 scanf("%d",&size);
 printf("enter the elements");
