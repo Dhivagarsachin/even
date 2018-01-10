@@ -15,6 +15,9 @@ for(j=1;j<n;j++)
 {
 if(a[i]<a[j])
 {
+  temp=a[i];
+  a[i]=a[j];
+  a[j]=temp;
 scanf("%d",&n);
 }
 }
