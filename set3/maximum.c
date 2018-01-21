@@ -1,26 +1,26 @@
 #include<stdio.h>
-int main()
+int  main()
 {
-int i,j,a[50],size,n,temp;
-printf("enter the array size");
-scanf("%d",&size);
-printf("enter the elements");
+int i,j,a[50],temp,n;
+printf("enter the array size\n");
 scanf("%d",&n);
 for(i=0;i<n;i++)
-printf("%d",a[i]);
 {
+scanf("%d",&a[i]);
+}
 for(i=0;i<n-1;i++)
 {
-for(j=1;j<n;j++)
+for(j=i;j<n;j++)
 {
-if(a[i]<a[j])
+if(a[i]>a[j])
 {
-  temp=a[i];
-  a[i]=a[j];
-  a[j]=temp;
-scanf("%d",&n);
+temp=a[i];
+a[i]=a[j];
+a[j]=temp;
 }
 }
 }
+printf("%d ",a[n-1]);
+return 0;
 }
-}
+
