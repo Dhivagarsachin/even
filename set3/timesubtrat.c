@@ -3,7 +3,7 @@
 int main()
 {
 int time=0;
-int miutes=0;
+int minutes=0;
 int hours=0;
 time =130;
 minutes=time%60;
