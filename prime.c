@@ -12,7 +12,7 @@ flag=1;
 brak;
 }
 }
-if(flag==0)
+if(flag==2)
 {
 printf("&d is a prime",n);
 }
