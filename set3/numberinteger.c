@@ -2,16 +2,16 @@
 #include<string.h>
 int main()
 {
-char c;
+int n;
 printf("enter the string");
-scanf("%c",&c);
-if(isdigit(c)==0)
+scanf("%s",&n);
+if((n>=47&&n<=58))
 {
-printf("the sting is numeric",c);
+printf("the sting is numeric");
 }
 else
 {
-printf("string is not numeric",c);
+printf("string is not numeric");
 }
 return 0;
 }
